@@ -1,5 +1,8 @@
+import $ from 'jquery';
+import 'slick-carousel';
+
 $(document).ready(function() {
-    $('.glazing_slider').slick({
+	$('.glazing_slider').slick({
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -67,4 +70,4 @@ $(document).ready(function() {
             }
         }]
     });
-});   
+});
